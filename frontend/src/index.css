@@ -677,8 +677,19 @@ textarea {
 
 .react-flow__controls button {
   background: #171b22;
-  color: #e8edf5;
+  color: #ffffff;
   border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.react-flow__controls button svg {
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.react-flow__controls button path,
+.react-flow__controls button line,
+.react-flow__controls button polyline {
+  stroke: #ffffff;
 }
 
 .react-flow__controls {
