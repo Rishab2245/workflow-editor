@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useStore } from './store';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://workflow-editor-vlh0.onrender.com';
 
 export const SubmitButton = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
